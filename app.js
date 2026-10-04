@@ -3,7 +3,7 @@
  * Handles 3D card tilt physics, cursor light tracking, modal windows & WhatsApp links.
  */
 
-const PHONE_NUMBER = "5491123456789"; // Replace with client's actual WhatsApp number
+const PHONE_NUMBER = "5493412531113"; // Replace with client's actual WhatsApp number
 
 function getWhatsAppLink(message) {
   return `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(message)}`;
